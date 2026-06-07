@@ -1,0 +1,30 @@
+System.out.println("[1] [2] [3]");
+                    System.out.println("[4] [5] [6]");
+                    System.out.println("[7] [8] [9]");
+
+
+
+                            System.out.println("-----------Estacionamento-----------");
+                            System.out.println("|[1] - Estacionar Carro            |");
+                            System.out.println("|[2] - Remover Carro               |");
+                            System.out.println("|[3] - Mostrar Vagas               |");
+                            System.out.println("|[4] - Sair                        |");
+                            System.out.println("------------------------------------");
+
+
+
+                            for (int linha = 0; linha <= contagem; linha++) {
+                                                    for (int coluna = 0; coluna <= contagem; coluna++) {
+                                                        if (vaga != 0){
+                                                            Estacionamento[linha][coluna] = "X";
+                                                        }
+                                                        else {
+                                                            System.out.println("Ja contem carro estacionado");
+
+                                                        }
+                                                    }
+                                                }
+
+                                                else {
+                                                                                    System.out.println("Placa não encontrada");
+                                                                                }
