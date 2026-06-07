@@ -1,1 +1,5 @@
-package src;
+# IntelliJ IDEA
+.idea
+# Arquivos compilados
+out
+ajuda.txt
